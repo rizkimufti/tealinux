@@ -52,7 +52,7 @@ body
         margin-right 60px
         margin-top 50px
     h1
-        color #0a5230
+        color white
         font-weight 300
         margin 0
         font-size 3em
@@ -142,6 +142,8 @@ body
         font-size: 1.9vw
     p
         font-size: 1.1vw
+
+
 #sponsors
     text-align center
     padding 35px 40px 45px
@@ -150,7 +152,7 @@ body
         max-width 700px
         margin 0px auto
     h3
-        color #999
+        
         font-size .9em
         margin 0 0 10px
     a
@@ -160,11 +162,7 @@ body
         width 100px
         display inline-block
         vertical-align middle
-    img
-        transition all .3s ease
-        filter contrast(0%)
-        &:hover
-            filter none
+   
     a.vip
         display block
         margin 30px auto 15px
@@ -247,3 +245,77 @@ body
             font-size: 4vmax
         p
             font-size: 3vmax
+
+// slide show
+
+.slideshow-container
+    max-width 500px
+    position relative
+    margin auto
+
+.text
+    color #f2f2f2
+    font-size 15px
+    padding 8px 12px
+    position absolute
+    bottom 8px
+    width 100%
+    text-align center
+
+.numbertext
+    color #f2f2f2
+    font-size 12px
+    padding 8px 12px
+    position absolute
+    top 0
+
+.dot
+    height 15px
+    width 15px
+    margin 0 2px
+    background-color #bbb
+    border-radius 50%
+    display inline-block
+    transition background-color 0.6s ease
+
+.active
+    background-color #717171
+
+.fade
+    -webkit-animation-name fade
+    -webkit-animation-duration 1.5s
+    animation-name fade
+    animation-duration 1.5s
+
+     
+#maskot
+    text-align center
+    padding 35px 40px 45px
+    background-color #2d8b83
+    .inner
+        max-width 700px
+        margin 0px auto
+    h3
+        
+        font-size .9em
+        margin 0 0 10px
+    a
+        margin 20px 15px 0
+        position relative
+    a, img
+        width 200px
+        display inline-block
+        vertical-align middle
+        
+    a.vip
+        display block
+        margin 30px auto 15px
+        width 200px
+        img
+            width 200px
+    .become-sponsor
+        margin-top 40px
+        font-size .9em
+        font-weight 700
+        width auto
+        background-color transparent
