@@ -571,7 +571,7 @@ body {
   display: none;
 }
 #header {
-  background-color: #9ad6b5;
+  background-color: #02b875;
 }
 #nav li a {
   color: #2c3e50;
@@ -603,7 +603,7 @@ body {
   margin-top: 50px;
 }
 #hero h1 {
-  color: #0a5230;
+  color: #fff;
   font-weight: 300;
   margin: 0;
   font-size: 3em;
@@ -679,8 +679,8 @@ body {
   font-size: 16px;
 }
 #feature {
-  background: #02b875;
-  color: #fff;
+  background: #fff;
+  color: #bbb;
 }
 #feature .row {
   margin: 0;
@@ -705,11 +705,11 @@ body {
 }
 #feature h1 {
   text-align: center;
-  color: #fff;
+  color: #02b875;
   font-size: 2.2vw;
 }
 #feature h2 {
-  color: #fff;
+  color: #02b875;
   font-size: 1.9vw;
 }
 #feature p {
@@ -725,7 +725,6 @@ body {
   margin: 0px auto;
 }
 #sponsors h3 {
-  color: #999;
   font-size: 0.9em;
   margin: 0 0 10px;
 }
@@ -738,13 +737,6 @@ body {
   width: 100px;
   display: inline-block;
   vertical-align: middle;
-}
-#sponsors img {
-  transition: all 0.3s ease;
-  filter: contrast(0%);
-}
-#sponsors img:hover {
-  filter: none;
 }
 #sponsors a.vip {
   display: block;
@@ -848,4 +840,81 @@ body {
   #feature p {
     font-size: 3vmax;
   }
+}
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#maskot {
+  text-align: center;
+  padding: 35px 40px 45px;
+  background-color: #02b875;
+}
+#maskot .inner {
+  max-width: 700px;
+  margin: 0px auto;
+}
+#maskot h3 {
+  font-size: 0.9em;
+  margin: 0 0 10px;
+}
+#maskot a {
+  margin: 20px 15px 0;
+  position: relative;
+}
+#maskot a,
+#maskot img {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#maskot a.vip {
+  display: block;
+  margin: 30px auto 15px;
+  width: 200px;
+}
+#maskot a.vip img {
+  width: 200px;
+}
+#maskot .become-sponsor {
+  margin-top: 40px;
+  font-size: 0.9em;
+  font-weight: 700;
+  width: auto;
+  background-color: transparent;
 }
